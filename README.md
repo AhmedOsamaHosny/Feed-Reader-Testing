@@ -14,7 +14,7 @@ Tested using:
 - Download the zip folder from this repo or clone the repo.
 - Unzip the project (if downloaded as zip).
 - Open the root folder of the project.
-- Open index.html with any browser or drag and drop the file into the browser or type its path in the address bar of the browser.
+- Open `index.html` with any browser or drag and drop the file into the browser or type its path in the address bar of the browser.
 
 
 
