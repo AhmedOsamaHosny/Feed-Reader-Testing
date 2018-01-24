@@ -6,6 +6,7 @@ The application made using:
 - HTML
 - CSS
 - JavaScript
+
 Tested using:
 - Jasmine Framwork
 
