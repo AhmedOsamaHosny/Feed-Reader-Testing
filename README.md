@@ -10,7 +10,7 @@ The application made using:
 Tested using:
 - Jasmine Framwork
 
-# Downloading and Run
+# Download and Run
 - Download the zip folder from this repo or clone the repo.
 - Unzip the project (if downloaded as zip).
 - Open the root folder of the project.
