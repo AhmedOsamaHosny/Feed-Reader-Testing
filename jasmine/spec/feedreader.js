@@ -74,7 +74,7 @@ $(function() {
       expect($('body').hasClass('menu-hidden')).toBe(false);
       // click second time menuIcon
       menuIcon.click();
-      expect(element.attr('class')).toEqual('menu-hidden');
+      expect($('body').hasClass('menu-hidden')).toBe(true);
 
     });
   });
@@ -87,7 +87,6 @@ $(function() {
      * function is called and completes its work, there is at least
      * a single .entry element within the .feed container.
      */
-    var container = $('.feed');
     beforeEach(function done() {
       loadFeed(0, function() {
         done();
@@ -95,7 +94,7 @@ $(function() {
     });
 
     it('there is at leasta single .entry element within the .feed container.', function(done) {
-      expect(container).toBeTruthy();
+      expect($('.feed .entry').length).toBeGreaterThan(0);
       done();
     });
   });
